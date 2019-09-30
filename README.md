@@ -22,10 +22,10 @@
 - phone
 - email
 
-#### Client/ Pet owner
+#### Client/ Pet owner (sub-class of human)
 - Payment details
 
-#### Veterinarian 
+#### Veterinarian (sub-class of human)
 - Specialization
 
 #### Appointment

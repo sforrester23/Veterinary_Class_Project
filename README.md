@@ -34,3 +34,7 @@
 - Pet (animal)
 - Vet (taking the appointment)
 - Cost
+
+
+## Things to add:
+- User interaction

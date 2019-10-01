@@ -12,10 +12,8 @@ class Veterinarian(Human):
     def add_appointment(self, ailment, date, pet, cost):
         self.appointment_list.append(Appointment(ailment, date, pet, cost))
 
-    def list_appointment(self):
-        count = 1
-        for appointment in self.appointment_list:
-            # return appointment.appointment_list
-            print('{}: {} has an appointment with {} on {} for {}. It costs {}.'.format(count, self.name, appointment.pet.name, appointment.date, appointment.ailment, appointment.cost))
-            count += 1
+    def list_appointment(self, appointment):
+        # return appointment.appointment_list
+        return '{} has an appointment with {} on {} for {}. It costs {}.'.format(self.name, appointment.pet.name, appointment.date, appointment.ailment, appointment.cost)
+
 
